@@ -1,4 +1,3 @@
-"""TODO: REFACTORING THE CODE TO MAKE IT MORE READABLE ON GITHUB!"""
 import csv
 import pandas as pd
 import logging
