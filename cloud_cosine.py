@@ -86,8 +86,6 @@ with open('duplicatePairs.csv', 'w', encoding='utf8', newline='') as outfile:
                 writer.writerow([index[0], index[1], "%.4f" % cos_sim])
 
 # Implementation with threshold
-
-
 for index, cos_sim in np.ndenumerate(cosine_similarities):
     if cos_sim > cosine_threshold:
         index = list(index)
